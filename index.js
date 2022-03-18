@@ -61,7 +61,7 @@ function App(){
 const [display] = React.useState("");
     return(
         <div className="min-vh-100">
-                <h1 className="pt-4 text-center">Roland TR 808 Drum Machine</h1>
+                <h1 className="pt-4 text-center">Roland TR-808 Drum Machine</h1>
                 <h5 className="text-center sub-heading">For All Your Hip-Hop Needs</h5>
             <div id="drum-machine">
                 <div id="container">{drumSoundBank.map(clip => (
